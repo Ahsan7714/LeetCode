@@ -13,7 +13,7 @@ public:
             return false;
         }
         ListNode*slow = head;
-        ListNode*fast=head->next;
+        ListNode*fast=head;
         while(fast!=nullptr){
             fast=fast->next;
             if(fast!=nullptr){
