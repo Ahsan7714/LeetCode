@@ -9,10 +9,7 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        if(head==nullptr){
-            return false;
-        }
-        if(head->next==nullptr){
+        if(head==nullptr || head->next==nullptr){
             return false;
         }
         ListNode*slow = head;
