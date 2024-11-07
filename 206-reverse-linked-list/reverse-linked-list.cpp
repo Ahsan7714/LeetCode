@@ -21,3 +21,16 @@ public:
 
     }
 };
+
+// ListNode* prev = nullptr;
+//         ListNode* current = head;
+//         ListNode* forward = nullptr; 
+        
+//         while (current != nullptr) {
+//             forward = current->next; 
+//             current->next = prev; 
+//             prev = current; 
+//             current = forward; 
+//         }
+        
+//         return prev;
